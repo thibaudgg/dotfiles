@@ -1,0 +1,9 @@
+# ~/.guardrc to mimic the abbreviated commands of guard ≤ 1.3.2
+%w(help reload change show notification pause exit).each do |full_cmd|
+  Pry.commands.alias_command full_cmd[0].chr, full_cmd
+end
+Pry.commands.block_command /^$/, 'Hit Enter to run all tests' do
+  Pry.run_command 'all'
+end
+
+Guard.options[:clear] = true
