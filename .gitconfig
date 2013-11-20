@@ -1,6 +1,6 @@
 [user]
-	name = Thibaud Guillaume-Gentil
-	email = thibaud@thibaud.me
+  name = Thibaud Guillaume-Gentil
+  email = thibaud@thibaud.me
 
 [alias]
   co = checkout
@@ -25,18 +25,18 @@
 
 [core]
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	autocrlf = input
-	quotepath = false
-	editor = subl -n -w
+  autocrlf = input
+  quotepath = false
+  editor = subl -n -w
 
 [apply]
   whitespace = fix
 
 [mergetool]
-	keepBackup = false
+  keepBackup = false
 
 [push]
-	default = simple
+  default = simple
 
 [heroku]
-	account = personal
+  account = personal
