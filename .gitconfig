@@ -29,5 +29,8 @@
 [apply]
   whitespace = fix
 
+[push]
+  default = simple
+
 [heroku]
   account = personal
