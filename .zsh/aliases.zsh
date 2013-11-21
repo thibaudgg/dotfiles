@@ -25,11 +25,13 @@ alias be='bundle exec'
 alias irb='pry'
 
 # Perso
-alias m4="cd ~/Codes/m4ven; clear"
+alias m4='cd ~/Codes/m4ven; clear'
 alias st='m4; r s'
 
 # Git
-alias gh="github"
-alias gs="git status -sb"
-alias glr="git pull --rebase"
+alias gh='github'
+alias gs='git status -sb'
+alias glr='git pull --rebase'
 
+# Heroku
+alias h='heroku'
