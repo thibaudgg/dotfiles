@@ -15,28 +15,19 @@
   # From OS X Keychain
   token = !security find-generic-password -gs \"GitHub API Token\" 2>&1 >/dev/null | awk '/password/ {print $2}' | tr -d \\\"
 
+[help]
+  autocorrect = 1
+
 [color]
-  diff = auto
-  status = auto
-  branch = auto
-  interactive = auto
   ui = true
-  pager = true
 
 [core]
-  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  whitespace = fix,space-before-tab,indent-with-non-tab,trailing-space,cr-at-eol
   autocrlf = input
-  quotepath = false
   editor = subl -n -w
 
 [apply]
   whitespace = fix
-
-[mergetool]
-  keepBackup = false
-
-[push]
-  default = simple
 
 [heroku]
   account = personal
