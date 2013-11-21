@@ -30,5 +30,6 @@ alias st='m4; r s'
 
 # Git
 alias gh="github"
+alias gs="git status -sb"
 alias glr="git pull --rebase"
 
