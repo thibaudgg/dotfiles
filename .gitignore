@@ -1,5 +1,7 @@
 *
 !README.md
+!bin/*
+!.oh-my-zsh/custom/themes/thibaudgg.zsh-theme
 !.gemrc
 !.gitignore
 !.gitconfig
@@ -7,3 +9,6 @@
 !.powconfig
 !.pryrc
 !.spring.rb
+!.zsh/*
+!.zshenv
+!.zshrc
