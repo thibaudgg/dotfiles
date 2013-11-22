@@ -14,11 +14,14 @@ compdef _gu gu
 alias ll='ls -all'
 
 # Utility
-alias reload!='. ~/.zshrc'
+alias r!='. ~/.zshrc'
 alias s='subl .'
 alias o='open .'
+alias ez='subl ~/.zsh'
 
 # Ruby
+alias gi='gem install'
+alias gui='gem uninstall'
 alias rbr='rbenv rehash'
 alias r='rake'
 alias be='bundle exec'
