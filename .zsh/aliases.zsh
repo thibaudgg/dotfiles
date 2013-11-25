@@ -25,11 +25,9 @@ alias gui='gem uninstall'
 alias rbr='rbenv rehash'
 alias r='rake'
 alias be='bundle exec'
+alias bi='bundle install'
+alias bu='bundle update'
 alias irb='pry'
-
-# Perso
-alias m4='cd ~/Codes/m4ven; clear'
-alias st='m4; r s'
 
 # Git
 alias gh='github'
