@@ -4,6 +4,7 @@
 !.oh-my-zsh/custom/themes/thibaudgg.zsh-theme
 !.gemrc
 !.gitignore
+!.gitignore-global
 !.gitconfig
 !.guardrc
 !.powconfig

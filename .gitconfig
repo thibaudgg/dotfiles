@@ -25,6 +25,7 @@
   whitespace = fix,space-before-tab,indent-with-non-tab,trailing-space,cr-at-eol
   autocrlf = input
   editor = subl -n -w
+	excludesfile = ~/.gitignore-global
 
 [apply]
   whitespace = fix
