@@ -25,9 +25,10 @@
   whitespace = fix,space-before-tab,indent-with-non-tab,trailing-space,cr-at-eol
   autocrlf = input
   excludesfile = ~/.gitignore-global
+  editor = atom --wait
 
 [apply]
-  whitespace = fix
+  whitespace = nowarn
 
 [push]
   default = simple
@@ -35,5 +36,16 @@
 [heroku]
   account = personal
 [filter "media"]
-  clean = git-media-clean %f
-  smudge = git-media-smudge %f
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+[gh]
+  autoUpdate = always
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[filter "lfs"]
+  clean = git lfs clean %f
+  smudge = git lfs smudge %f
+  required = true
