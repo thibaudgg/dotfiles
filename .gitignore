@@ -1,7 +1,6 @@
 *
 !LICENSE.txt
 !bin/*
-!.bundle/config
 !.gemrc
 !.gitignore
 !.gitignore-global
