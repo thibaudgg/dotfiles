@@ -1,2 +1,1 @@
-. ~/.zsh/oh-my-zsh.zsh
-. ~/.zsh/aliases.zsh
+/Users/Thibaud/.zprezto/runcoms/zshrc

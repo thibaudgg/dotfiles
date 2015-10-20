@@ -1,2 +1,1 @@
-. ~/.zsh/paths.zsh
-. ~/.zsh/env.zsh
+/Users/Thibaud/.zprezto/runcoms/zshenv
